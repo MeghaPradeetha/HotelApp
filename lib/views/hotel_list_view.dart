@@ -24,37 +24,41 @@ class _HotelListViewState extends State<HotelListView> {
   Widget hotelsList() => Container(
       height: MediaQuery.of(context).size.height / 1.1,
       padding: const EdgeInsets.only(left: 15.0, right: 15.0, top: 120.0),
-      child: model.filteredHotels.isNotEmpty
-          ? Scrollbar(
-              thickness: 9,
-              interactive: true,
-              thumbVisibility: true,
-              radius: const Radius.circular(4),
-              child: Padding(
-                padding: const EdgeInsets.all(20.0),
-                child: ListView.separated(
-                  scrollDirection: Axis.vertical,
-                  shrinkWrap: true,
-                  itemCount: model.filteredHotels.length,
-                  itemBuilder: (context, index) {
-                    return HotelCard(hotel: model.filteredHotels[index]);
-                  },
-                  separatorBuilder: (context, index) {
-                    return const Divider(
-                      indent: 5,
-                      endIndent: 5,
-                      color: Colors.grey,
-                    );
-                  },
-                ),
-              ),
+      child: model.isLoading
+          ? const Center(
+              child: CircularProgressIndicator(),
             )
-          : const Center(
-              child: Text(
-                'No hotels available.',
-                style: TextStyle(fontSize: 18, color: Colors.black),
-              ),
-            ));
+          : model.filteredHotels.isNotEmpty
+              ? Scrollbar(
+                  thickness: 9,
+                  interactive: true,
+                  thumbVisibility: true,
+                  radius: const Radius.circular(4),
+                  child: Padding(
+                    padding: const EdgeInsets.all(20.0),
+                    child: ListView.separated(
+                      scrollDirection: Axis.vertical,
+                      shrinkWrap: true,
+                      itemCount: model.filteredHotels.length,
+                      itemBuilder: (context, index) {
+                        return HotelCard(hotel: model.filteredHotels[index]);
+                      },
+                      separatorBuilder: (context, index) {
+                        return const Divider(
+                          indent: 5,
+                          endIndent: 5,
+                          color: Colors.grey,
+                        );
+                      },
+                    ),
+                  ),
+                )
+              : const Center(
+                  child: Text(
+                    'No hotels available.',
+                    style: TextStyle(fontSize: 18, color: Colors.black),
+                  ),
+                ));
 
   Widget mainBody(BuildContext context) => Stack(
         children: [

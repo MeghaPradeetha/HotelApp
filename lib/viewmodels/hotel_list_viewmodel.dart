@@ -5,16 +5,21 @@ import '../models/hotel.dart';
 class HotelListViewModel extends ChangeNotifier {
   List<Hotel> _hotels = [];
   List<Hotel> filteredHotels = [];
+  bool isLoading = false;
 
   List<Hotel> get hotels => _hotels;
 
   Future<void> fetchHotels() async {
+    isLoading = true;
+    notifyListeners();
     try {
       _hotels = await HotelApi.fetchHotels();
       filteredHotels = _hotels;
-      notifyListeners();
     } catch (e) {
       throw Exception('Failed to load hotels');
+    } finally {
+      isLoading = false;
+      notifyListeners();
     }
   }
 

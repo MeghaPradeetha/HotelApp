@@ -1,5 +1,5 @@
 import 'package:flutter/material.dart';
-import '../models/hotel.dart'; // Import your Hotel model here
+import '../models/hotel.dart';
 
 class HotelDetailsView extends StatelessWidget {
   final Hotel hotel;
@@ -31,7 +31,7 @@ class HotelDetailsView extends StatelessWidget {
                 decoration: BoxDecoration(
                   borderRadius: BorderRadius.circular(10.0),
                   image: const DecorationImage(
-                    image: AssetImage('assets/images/picture1.png'),
+                    image: AssetImage('assets/images/hotel.png'),
                     fit: BoxFit.cover,
                   ),
                 ),
@@ -40,7 +40,7 @@ class HotelDetailsView extends StatelessWidget {
               const Text(
                 'Address:',
                 style: TextStyle(
-                  fontSize: 18,
+                  fontSize: 20,
                   fontWeight: FontWeight.bold,
                   color: Colors.blueAccent,
                 ),
@@ -48,13 +48,13 @@ class HotelDetailsView extends StatelessWidget {
               const SizedBox(height: 8),
               Text(
                 hotel.address,
-                style: const TextStyle(fontSize: 16),
+                style: const TextStyle(fontSize: 16, color: Colors.blueGrey),
               ),
               const SizedBox(height: 20),
               const Text(
                 'Description:',
                 style: TextStyle(
-                  fontSize: 18,
+                  fontSize: 20,
                   fontWeight: FontWeight.bold,
                   color: Colors.blueAccent,
                 ),
@@ -62,7 +62,7 @@ class HotelDetailsView extends StatelessWidget {
               const SizedBox(height: 8),
               Text(
                 hotel.description,
-                style: const TextStyle(fontSize: 16),
+                style: const TextStyle(fontSize: 16, color: Colors.blueGrey),
               ),
             ],
           ),

@@ -1,7 +1,6 @@
 import 'package:flutter/material.dart';
 
 import '../viewmodels/login_viewmodel.dart';
-import 'hotel_list_view.dart';
 
 class LoginView extends StatefulWidget {
   const LoginView({Key? key}) : super(key: key);
@@ -16,6 +15,7 @@ class _LoginViewState extends State<LoginView> {
   @override
   void initState() {
     super.initState();
+    model.navigateToHotelListView(context);
   }
 
   Widget loginText(BuildContext context) {
@@ -53,15 +53,7 @@ class _LoginViewState extends State<LoginView> {
             padding: const EdgeInsets.symmetric(horizontal: 20),
             child: ElevatedButton.icon(
               onPressed: () async {
-                await model.signInWithGoogle();
-                if (model.isLoggedIn) {
-                  Navigator.push(
-                    context,
-                    MaterialPageRoute(
-                      builder: (context) => const HotelListView(),
-                    ),
-                  );
-                }
+                model.navigateToHotelListView(context);
               },
               icon: Image.asset(
                 'assets/icons/google.png',
