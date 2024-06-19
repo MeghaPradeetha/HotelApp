@@ -11,7 +11,7 @@ class HotelDetailsView extends StatelessWidget {
     return Scaffold(
       backgroundColor: Colors.white,
       appBar: AppBar(
-        title: const Text('Hotel Details'),
+        title: Text(hotel.title),
         backgroundColor: Colors.blueAccent,
         leading: IconButton(
           icon: const Icon(Icons.arrow_back),
@@ -34,33 +34,6 @@ class HotelDetailsView extends StatelessWidget {
                     image: AssetImage('assets/images/picture1.png'),
                     fit: BoxFit.cover,
                   ),
-                ),
-                child: Stack(
-                  children: [
-                    Positioned(
-                      top: 10,
-                      left: 10,
-                      child: IconButton(
-                        icon: const Icon(Icons.arrow_back_ios_rounded),
-                        color: Colors.white,
-                        onPressed: () {
-                          Navigator.of(context).pop();
-                        },
-                      ),
-                    ),
-                    Positioned(
-                      bottom: 10,
-                      left: 10,
-                      child: Text(
-                        hotel.title,
-                        style: const TextStyle(
-                          color: Colors.white,
-                          fontSize: 24,
-                          fontWeight: FontWeight.bold,
-                        ),
-                      ),
-                    ),
-                  ],
                 ),
               ),
               const SizedBox(height: 20),
