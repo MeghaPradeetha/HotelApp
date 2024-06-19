@@ -32,10 +32,16 @@ class HotelCard extends StatelessWidget {
             style: const TextStyle(
               color: Colors.blue,
               fontWeight: FontWeight.bold,
-              fontSize: 16,
+              fontSize: 17,
             ),
           ),
-          subtitle: Text(hotel.address),
+          subtitle: Text(
+            hotel.address,
+            style: const TextStyle(
+              color: Colors.blueGrey,
+              fontSize: 15,
+            ),
+          ),
         ),
       ),
     );
