@@ -69,7 +69,8 @@ class _HotelListViewState extends State<HotelListView> {
             child: Column(
               mainAxisAlignment: MainAxisAlignment.start,
               children: <Widget>[
-                Column(
+                Row(
+                  mainAxisAlignment: MainAxisAlignment.spaceBetween,
                   children: [
                     const Text(
                       'Hotels List',
@@ -79,20 +80,26 @@ class _HotelListViewState extends State<HotelListView> {
                         color: Colors.blueAccent,
                       ),
                     ),
-                    sizeBox(10.0),
-                    TextField(
-                      decoration: InputDecoration(
-                        hintText: 'Search hotels...',
-                        border: OutlineInputBorder(
-                          borderRadius: BorderRadius.circular(8.0),
-                        ),
-                        prefixIcon: const Icon(Icons.search),
-                      ),
-                      onChanged: (query) {
-                        model.searchHotels(query);
+                    ElevatedButton(
+                      onPressed: () async {
+                        await model.signOut(context);
                       },
+                      child: const Text("Logout"),
                     ),
                   ],
+                ),
+                sizeBox(10.0),
+                TextField(
+                  decoration: InputDecoration(
+                    hintText: 'Search hotels...',
+                    border: OutlineInputBorder(
+                      borderRadius: BorderRadius.circular(8.0),
+                    ),
+                    prefixIcon: const Icon(Icons.search),
+                  ),
+                  onChanged: (query) {
+                    model.searchHotels(query);
+                  },
                 ),
               ],
             ),
