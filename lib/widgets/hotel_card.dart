@@ -10,6 +10,11 @@ class HotelCard extends StatelessWidget {
   Widget build(BuildContext context) {
     return Card(
       child: ListTile(
+        leading: Image.asset(
+          'assets/images/picture1.png',
+          width: 40,
+          height: 40,
+        ),
         // leading: Image.network(hotel.imageUrl,
         //     width: 50, height: 50, fit: BoxFit.cover),
         title: Text(hotel.title),
