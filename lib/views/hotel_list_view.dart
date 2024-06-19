@@ -22,7 +22,7 @@ class _HotelListViewState extends State<HotelListView> {
   }
 
   Widget hotelsList() => Container(
-      height: MediaQuery.of(context).size.height / 1,
+      height: MediaQuery.of(context).size.height / 1.1,
       padding: const EdgeInsets.only(left: 15.0, right: 15.0, top: 120.0),
       child: model.filteredHotels.isNotEmpty
           ? Scrollbar(
