@@ -12,12 +12,19 @@ class HotelCard extends StatelessWidget {
       child: ListTile(
         leading: Image.asset(
           'assets/images/picture1.png',
-          width: 40,
-          height: 40,
+          width: 50,
+          height: 50,
         ),
         // leading: Image.network(hotel.imageUrl,
         //     width: 50, height: 50, fit: BoxFit.cover),
-        title: Text(hotel.title),
+        title: Text(
+          hotel.title,
+          style: const TextStyle(
+            color: Colors.blue,
+            fontWeight: FontWeight.bold,
+            fontSize: 16,
+          ),
+        ),
         subtitle: Text(hotel.address),
       ),
     );

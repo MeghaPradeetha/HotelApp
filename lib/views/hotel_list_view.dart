@@ -31,7 +31,7 @@ class _HotelListViewState extends State<HotelListView> {
               thumbVisibility: true,
               radius: const Radius.circular(4),
               child: Padding(
-                padding: const EdgeInsets.all(15.0),
+                padding: const EdgeInsets.all(20.0),
                 child: ListView.separated(
                   scrollDirection: Axis.vertical,
                   shrinkWrap: true,
