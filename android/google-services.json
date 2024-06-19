@@ -1,0 +1,54 @@
+{
+  "project_info": {
+    "project_number": "262363096120",
+    "project_id": "hotelapp-715f0",
+    "storage_bucket": "hotelapp-715f0.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:262363096120:android:59a9987766f1bfa0fcb2cd",
+        "android_client_info": {
+          "package_name": "com.example.hotel"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "262363096120-oirq0nrptaptokafrpi0tc49tjva9250.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.hotel",
+            "certificate_hash": "a71d9beb77b92c1d7df23f6ebd51fde58f84286f"
+          }
+        },
+        {
+          "client_id": "262363096120-am3m3iklqe1kpq790bu6o33pelovghab.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCDckH8RnIc5RipJ9p0uEeAoI_r5sdgjLM"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "262363096120-am3m3iklqe1kpq790bu6o33pelovghab.apps.googleusercontent.com",
+              "client_type": 3
+            },
+            {
+              "client_id": "262363096120-7m3s87cf1ja8rldn1056c53ntjsieh11.apps.googleusercontent.com",
+              "client_type": 2,
+              "ios_info": {
+                "bundle_id": "com.example.hotel"
+              }
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
