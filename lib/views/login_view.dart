@@ -20,11 +20,25 @@ class _LoginViewState extends State<LoginView> {
 
   Widget loginText(BuildContext context) {
     return const Text(
-      "Login",
+      "Welcome!",
       style: TextStyle(
-        fontSize: 28,
+        fontSize: 30,
         fontWeight: FontWeight.bold,
         color: Colors.blueAccent,
+      ),
+    );
+  }
+
+  Widget loginDescriptionText(BuildContext context) {
+    return Container(
+      alignment: Alignment.center,
+      child: const Text(
+        "This application provides detailed information about hotels. Please sign in using your social media profiles to access its features.",
+        style: TextStyle(
+          fontSize: 18,
+          color: Colors.blueGrey,
+        ),
+        textAlign: TextAlign.center,
       ),
     );
   }
@@ -161,9 +175,14 @@ class _LoginViewState extends State<LoginView> {
         mainAxisAlignment: MainAxisAlignment.center,
         children: <Widget>[
           loginText(context),
+          const SizedBox(height: 30),
+          SizedBox(
+            width: 300,
+            child: loginDescriptionText(context),
+          ),
           const SizedBox(height: 40),
           SizedBox(
-            width: 300, // Adjust width as needed
+            width: 300,
             child: loginIcons(context),
           ),
         ],
