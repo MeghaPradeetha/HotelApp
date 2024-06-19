@@ -1,12 +1,14 @@
 -- Merging decision tree log ---
 application
-INJECTED from /Users/meghapradeetha/HotelApp/android/app/src/main/AndroidManifest.xml:2:5-32:19
+INJECTED from /Users/meghapradeetha/HotelApp/android/app/src/main/AndroidManifest.xml:2:5-35:19
 MERGED from [:firebase_core] /Users/meghapradeetha/HotelApp/build/firebase_core/intermediates/merged_manifest/debug/AndroidManifest.xml:9:5-15:19
 MERGED from [:firebase_core] /Users/meghapradeetha/HotelApp/build/firebase_core/intermediates/merged_manifest/debug/AndroidManifest.xml:9:5-15:19
 MERGED from [com.google.firebase:firebase-common:20.4.2] /Users/meghapradeetha/.gradle/caches/transforms-3/0f3b748e3e0116b10da63b5db6c97f3d/transformed/jetified-firebase-common-20.4.2/AndroidManifest.xml:22:5-39:19
 MERGED from [com.google.firebase:firebase-common:20.4.2] /Users/meghapradeetha/.gradle/caches/transforms-3/0f3b748e3e0116b10da63b5db6c97f3d/transformed/jetified-firebase-common-20.4.2/AndroidManifest.xml:22:5-39:19
 MERGED from [androidx.window:window:1.0.0-beta04] /Users/meghapradeetha/.gradle/caches/transforms-3/2f632d8dec5aedcc344894ac2d746d3d/transformed/jetified-window-1.0.0-beta04/AndroidManifest.xml:24:5-31:19
 MERGED from [androidx.window:window:1.0.0-beta04] /Users/meghapradeetha/.gradle/caches/transforms-3/2f632d8dec5aedcc344894ac2d746d3d/transformed/jetified-window-1.0.0-beta04/AndroidManifest.xml:24:5-31:19
+MERGED from [com.google.android.gms:play-services-maps:18.2.0] /Users/meghapradeetha/.gradle/caches/transforms-3/bc5a61d9faa745b16dac9bacec6875b6/transformed/jetified-play-services-maps-18.2.0/AndroidManifest.xml:36:5-42:19
+MERGED from [com.google.android.gms:play-services-maps:18.2.0] /Users/meghapradeetha/.gradle/caches/transforms-3/bc5a61d9faa745b16dac9bacec6875b6/transformed/jetified-play-services-maps-18.2.0/AndroidManifest.xml:36:5-42:19
 MERGED from [com.google.android.gms:play-services-auth:21.0.0] /Users/meghapradeetha/.gradle/caches/transforms-3/d96a5d8a84687aae0598367ea687ad3a/transformed/jetified-play-services-auth-21.0.0/AndroidManifest.xml:22:5-38:19
 MERGED from [com.google.android.gms:play-services-auth:21.0.0] /Users/meghapradeetha/.gradle/caches/transforms-3/d96a5d8a84687aae0598367ea687ad3a/transformed/jetified-play-services-auth-21.0.0/AndroidManifest.xml:22:5-38:19
 MERGED from [com.google.android.gms:play-services-fido:20.0.1] /Users/meghapradeetha/.gradle/caches/transforms-3/2b9615715bcc729df9033f676b0bf099/transformed/jetified-play-services-fido-20.0.1/AndroidManifest.xml:7:5-8:19
@@ -21,21 +23,26 @@ MERGED from [androidx.core:core:1.8.0] /Users/meghapradeetha/.gradle/caches/tran
 MERGED from [androidx.core:core:1.8.0] /Users/meghapradeetha/.gradle/caches/transforms-3/c9e03d9ea2a958b3d7ec15aa22e9acea/transformed/core-1.8.0/AndroidManifest.xml:24:5-89
 MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.1] /Users/meghapradeetha/.gradle/caches/transforms-3/e5680a9c4e90194e3fe29a3c1f1dfc22/transformed/versionedparcelable-1.1.1/AndroidManifest.xml:24:5-25:19
 MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.1] /Users/meghapradeetha/.gradle/caches/transforms-3/e5680a9c4e90194e3fe29a3c1f1dfc22/transformed/versionedparcelable-1.1.1/AndroidManifest.xml:24:5-25:19
+MERGED from [com.google.maps.android:android-maps-utils:3.6.0] /Users/meghapradeetha/.gradle/caches/transforms-3/69f0254b8be860c7bd0277cc29a16dcc/transformed/jetified-android-maps-utils-3.6.0/AndroidManifest.xml:7:5-11:19
+MERGED from [com.google.maps.android:android-maps-utils:3.6.0] /Users/meghapradeetha/.gradle/caches/transforms-3/69f0254b8be860c7bd0277cc29a16dcc/transformed/jetified-android-maps-utils-3.6.0/AndroidManifest.xml:7:5-11:19
 	android:appComponentFactory
 		ADDED from [androidx.core:core:1.8.0] /Users/meghapradeetha/.gradle/caches/transforms-3/c9e03d9ea2a958b3d7ec15aa22e9acea/transformed/core-1.8.0/AndroidManifest.xml:24:18-86
 	android:name
 		INJECTED from /Users/meghapradeetha/HotelApp/android/app/src/main/AndroidManifest.xml
 manifest
-ADDED from /Users/meghapradeetha/HotelApp/android/app/src/main/AndroidManifest.xml:1:1-33:12
-INJECTED from /Users/meghapradeetha/HotelApp/android/app/src/main/AndroidManifest.xml:1:1-33:12
-INJECTED from /Users/meghapradeetha/HotelApp/android/app/src/main/AndroidManifest.xml:1:1-33:12
-INJECTED from /Users/meghapradeetha/HotelApp/android/app/src/main/AndroidManifest.xml:1:1-33:12
-MERGED from /Users/meghapradeetha/HotelApp/android/app/src/main/AndroidManifest.xml:1:1-33:12
+ADDED from /Users/meghapradeetha/HotelApp/android/app/src/main/AndroidManifest.xml:1:1-36:12
+INJECTED from /Users/meghapradeetha/HotelApp/android/app/src/main/AndroidManifest.xml:1:1-36:12
+INJECTED from /Users/meghapradeetha/HotelApp/android/app/src/main/AndroidManifest.xml:1:1-36:12
+INJECTED from /Users/meghapradeetha/HotelApp/android/app/src/main/AndroidManifest.xml:1:1-36:12
+MERGED from /Users/meghapradeetha/HotelApp/android/app/src/main/AndroidManifest.xml:1:1-36:12
 MERGED from [:firebase_core] /Users/meghapradeetha/HotelApp/build/firebase_core/intermediates/merged_manifest/debug/AndroidManifest.xml:2:1-17:12
+MERGED from [:google_maps_flutter_android] /Users/meghapradeetha/HotelApp/build/google_maps_flutter_android/intermediates/merged_manifest/debug/AndroidManifest.xml:2:1-9:12
+MERGED from [:flutter_plugin_android_lifecycle] /Users/meghapradeetha/HotelApp/build/flutter_plugin_android_lifecycle/intermediates/merged_manifest/debug/AndroidManifest.xml:2:1-9:12
 MERGED from [:google_sign_in_android] /Users/meghapradeetha/HotelApp/build/google_sign_in_android/intermediates/merged_manifest/debug/AndroidManifest.xml:2:1-11:12
 MERGED from [com.google.firebase:firebase-common:20.4.2] /Users/meghapradeetha/.gradle/caches/transforms-3/0f3b748e3e0116b10da63b5db6c97f3d/transformed/jetified-firebase-common-20.4.2/AndroidManifest.xml:15:1-41:12
 MERGED from [androidx.window:window-java:1.0.0-beta04] /Users/meghapradeetha/.gradle/caches/transforms-3/234cf6cab2ae0df1de11d520bd41701d/transformed/jetified-window-java-1.0.0-beta04/AndroidManifest.xml:17:1-23:12
 MERGED from [androidx.window:window:1.0.0-beta04] /Users/meghapradeetha/.gradle/caches/transforms-3/2f632d8dec5aedcc344894ac2d746d3d/transformed/jetified-window-1.0.0-beta04/AndroidManifest.xml:17:1-33:12
+MERGED from [com.google.android.gms:play-services-maps:18.2.0] /Users/meghapradeetha/.gradle/caches/transforms-3/bc5a61d9faa745b16dac9bacec6875b6/transformed/jetified-play-services-maps-18.2.0/AndroidManifest.xml:17:1-44:12
 MERGED from [com.google.android.gms:play-services-auth:21.0.0] /Users/meghapradeetha/.gradle/caches/transforms-3/d96a5d8a84687aae0598367ea687ad3a/transformed/jetified-play-services-auth-21.0.0/AndroidManifest.xml:17:1-40:12
 MERGED from [com.google.android.gms:play-services-auth-api-phone:18.0.2] /Users/meghapradeetha/.gradle/caches/transforms-3/1cf757cddca3f732ae5d57d33fe09aaf/transformed/jetified-play-services-auth-api-phone-18.0.2/AndroidManifest.xml:2:1-7:12
 MERGED from [com.google.android.gms:play-services-auth-base:18.0.10] /Users/meghapradeetha/.gradle/caches/transforms-3/613115e086cca12e750abf53e63b8274/transformed/jetified-play-services-auth-base-18.0.10/AndroidManifest.xml:2:1-7:12
@@ -59,21 +66,22 @@ MERGED from [androidx.savedstate:savedstate:1.2.0] /Users/meghapradeetha/.gradle
 MERGED from [androidx.lifecycle:lifecycle-runtime:2.5.1] /Users/meghapradeetha/.gradle/caches/transforms-3/0792dba911360a69001e637a02e711a6/transformed/lifecycle-runtime-2.5.1/AndroidManifest.xml:17:1-24:12
 MERGED from [androidx.lifecycle:lifecycle-livedata-core:2.5.1] /Users/meghapradeetha/.gradle/caches/transforms-3/81a0e8e48e87a2d85d165a5e8a88d968/transformed/lifecycle-livedata-core-2.5.1/AndroidManifest.xml:17:1-24:12
 MERGED from [androidx.arch.core:core-runtime:2.1.0] /Users/meghapradeetha/.gradle/caches/transforms-3/98b96325c13e0363957b3816c9989e3c/transformed/core-runtime-2.1.0/AndroidManifest.xml:17:1-24:12
+MERGED from [com.google.maps.android:android-maps-utils:3.6.0] /Users/meghapradeetha/.gradle/caches/transforms-3/69f0254b8be860c7bd0277cc29a16dcc/transformed/jetified-android-maps-utils-3.6.0/AndroidManifest.xml:2:1-13:12
 MERGED from [androidx.annotation:annotation-experimental:1.1.0] /Users/meghapradeetha/.gradle/caches/transforms-3/63de43c2f1d406e95d47893f129ee7b9/transformed/jetified-annotation-experimental-1.1.0/AndroidManifest.xml:17:1-24:12
 INJECTED from /Users/meghapradeetha/HotelApp/android/app/src/debug/AndroidManifest.xml:1:1-7:12
 INJECTED from /Users/meghapradeetha/HotelApp/android/app/src/debug/AndroidManifest.xml:1:1-7:12
 INJECTED from /Users/meghapradeetha/HotelApp/android/app/src/debug/AndroidManifest.xml:1:1-7:12
 	package
 		INJECTED from /Users/meghapradeetha/HotelApp/android/app/src/main/AndroidManifest.xml
-		ADDED from /Users/meghapradeetha/HotelApp/android/app/src/main/AndroidManifest.xml:1:1-33:12
+		ADDED from /Users/meghapradeetha/HotelApp/android/app/src/main/AndroidManifest.xml:1:1-36:12
 		INJECTED from /Users/meghapradeetha/HotelApp/android/app/src/debug/AndroidManifest.xml
 	android:versionName
 		INJECTED from /Users/meghapradeetha/HotelApp/android/app/src/main/AndroidManifest.xml
-		ADDED from /Users/meghapradeetha/HotelApp/android/app/src/main/AndroidManifest.xml:1:1-33:12
+		ADDED from /Users/meghapradeetha/HotelApp/android/app/src/main/AndroidManifest.xml:1:1-36:12
 		INJECTED from /Users/meghapradeetha/HotelApp/android/app/src/debug/AndroidManifest.xml
 	android:versionCode
 		INJECTED from /Users/meghapradeetha/HotelApp/android/app/src/main/AndroidManifest.xml
-		ADDED from /Users/meghapradeetha/HotelApp/android/app/src/main/AndroidManifest.xml:1:1-33:12
+		ADDED from /Users/meghapradeetha/HotelApp/android/app/src/main/AndroidManifest.xml:1:1-36:12
 		INJECTED from /Users/meghapradeetha/HotelApp/android/app/src/debug/AndroidManifest.xml
 	xmlns:android
 		ADDED from /Users/meghapradeetha/HotelApp/android/app/src/main/AndroidManifest.xml:1:11-69
@@ -83,6 +91,10 @@ INJECTED from /Users/meghapradeetha/HotelApp/android/app/src/main/AndroidManifes
 INJECTED from /Users/meghapradeetha/HotelApp/android/app/src/main/AndroidManifest.xml
 MERGED from [:firebase_core] /Users/meghapradeetha/HotelApp/build/firebase_core/intermediates/merged_manifest/debug/AndroidManifest.xml:5:5-7:41
 MERGED from [:firebase_core] /Users/meghapradeetha/HotelApp/build/firebase_core/intermediates/merged_manifest/debug/AndroidManifest.xml:5:5-7:41
+MERGED from [:google_maps_flutter_android] /Users/meghapradeetha/HotelApp/build/google_maps_flutter_android/intermediates/merged_manifest/debug/AndroidManifest.xml:5:5-7:41
+MERGED from [:google_maps_flutter_android] /Users/meghapradeetha/HotelApp/build/google_maps_flutter_android/intermediates/merged_manifest/debug/AndroidManifest.xml:5:5-7:41
+MERGED from [:flutter_plugin_android_lifecycle] /Users/meghapradeetha/HotelApp/build/flutter_plugin_android_lifecycle/intermediates/merged_manifest/debug/AndroidManifest.xml:5:5-7:41
+MERGED from [:flutter_plugin_android_lifecycle] /Users/meghapradeetha/HotelApp/build/flutter_plugin_android_lifecycle/intermediates/merged_manifest/debug/AndroidManifest.xml:5:5-7:41
 MERGED from [:google_sign_in_android] /Users/meghapradeetha/HotelApp/build/google_sign_in_android/intermediates/merged_manifest/debug/AndroidManifest.xml:5:5-7:41
 MERGED from [:google_sign_in_android] /Users/meghapradeetha/HotelApp/build/google_sign_in_android/intermediates/merged_manifest/debug/AndroidManifest.xml:5:5-7:41
 MERGED from [com.google.firebase:firebase-common:20.4.2] /Users/meghapradeetha/.gradle/caches/transforms-3/0f3b748e3e0116b10da63b5db6c97f3d/transformed/jetified-firebase-common-20.4.2/AndroidManifest.xml:19:5-44
@@ -91,6 +103,8 @@ MERGED from [androidx.window:window-java:1.0.0-beta04] /Users/meghapradeetha/.gr
 MERGED from [androidx.window:window-java:1.0.0-beta04] /Users/meghapradeetha/.gradle/caches/transforms-3/234cf6cab2ae0df1de11d520bd41701d/transformed/jetified-window-java-1.0.0-beta04/AndroidManifest.xml:19:5-21:41
 MERGED from [androidx.window:window:1.0.0-beta04] /Users/meghapradeetha/.gradle/caches/transforms-3/2f632d8dec5aedcc344894ac2d746d3d/transformed/jetified-window-1.0.0-beta04/AndroidManifest.xml:20:5-22:41
 MERGED from [androidx.window:window:1.0.0-beta04] /Users/meghapradeetha/.gradle/caches/transforms-3/2f632d8dec5aedcc344894ac2d746d3d/transformed/jetified-window-1.0.0-beta04/AndroidManifest.xml:20:5-22:41
+MERGED from [com.google.android.gms:play-services-maps:18.2.0] /Users/meghapradeetha/.gradle/caches/transforms-3/bc5a61d9faa745b16dac9bacec6875b6/transformed/jetified-play-services-maps-18.2.0/AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-maps:18.2.0] /Users/meghapradeetha/.gradle/caches/transforms-3/bc5a61d9faa745b16dac9bacec6875b6/transformed/jetified-play-services-maps-18.2.0/AndroidManifest.xml:20:5-44
 MERGED from [com.google.android.gms:play-services-auth:21.0.0] /Users/meghapradeetha/.gradle/caches/transforms-3/d96a5d8a84687aae0598367ea687ad3a/transformed/jetified-play-services-auth-21.0.0/AndroidManifest.xml:20:5-44
 MERGED from [com.google.android.gms:play-services-auth:21.0.0] /Users/meghapradeetha/.gradle/caches/transforms-3/d96a5d8a84687aae0598367ea687ad3a/transformed/jetified-play-services-auth-21.0.0/AndroidManifest.xml:20:5-44
 MERGED from [com.google.android.gms:play-services-auth-api-phone:18.0.2] /Users/meghapradeetha/.gradle/caches/transforms-3/1cf757cddca3f732ae5d57d33fe09aaf/transformed/jetified-play-services-auth-api-phone-18.0.2/AndroidManifest.xml:5:5-44
@@ -137,6 +151,8 @@ MERGED from [androidx.lifecycle:lifecycle-livedata-core:2.5.1] /Users/meghaprade
 MERGED from [androidx.lifecycle:lifecycle-livedata-core:2.5.1] /Users/meghapradeetha/.gradle/caches/transforms-3/81a0e8e48e87a2d85d165a5e8a88d968/transformed/lifecycle-livedata-core-2.5.1/AndroidManifest.xml:20:5-22:41
 MERGED from [androidx.arch.core:core-runtime:2.1.0] /Users/meghapradeetha/.gradle/caches/transforms-3/98b96325c13e0363957b3816c9989e3c/transformed/core-runtime-2.1.0/AndroidManifest.xml:20:5-22:41
 MERGED from [androidx.arch.core:core-runtime:2.1.0] /Users/meghapradeetha/.gradle/caches/transforms-3/98b96325c13e0363957b3816c9989e3c/transformed/core-runtime-2.1.0/AndroidManifest.xml:20:5-22:41
+MERGED from [com.google.maps.android:android-maps-utils:3.6.0] /Users/meghapradeetha/.gradle/caches/transforms-3/69f0254b8be860c7bd0277cc29a16dcc/transformed/jetified-android-maps-utils-3.6.0/AndroidManifest.xml:5:5-44
+MERGED from [com.google.maps.android:android-maps-utils:3.6.0] /Users/meghapradeetha/.gradle/caches/transforms-3/69f0254b8be860c7bd0277cc29a16dcc/transformed/jetified-android-maps-utils-3.6.0/AndroidManifest.xml:5:5-44
 MERGED from [androidx.annotation:annotation-experimental:1.1.0] /Users/meghapradeetha/.gradle/caches/transforms-3/63de43c2f1d406e95d47893f129ee7b9/transformed/jetified-annotation-experimental-1.1.0/AndroidManifest.xml:20:5-22:41
 MERGED from [androidx.annotation:annotation-experimental:1.1.0] /Users/meghapradeetha/.gradle/caches/transforms-3/63de43c2f1d406e95d47893f129ee7b9/transformed/jetified-annotation-experimental-1.1.0/AndroidManifest.xml:20:5-22:41
 INJECTED from /Users/meghapradeetha/HotelApp/android/app/src/debug/AndroidManifest.xml
@@ -151,6 +167,8 @@ uses-permission#android.permission.INTERNET
 ADDED from /Users/meghapradeetha/HotelApp/android/app/src/debug/AndroidManifest.xml:6:5-66
 MERGED from [:google_sign_in_android] /Users/meghapradeetha/HotelApp/build/google_sign_in_android/intermediates/merged_manifest/debug/AndroidManifest.xml:9:5-67
 MERGED from [:google_sign_in_android] /Users/meghapradeetha/HotelApp/build/google_sign_in_android/intermediates/merged_manifest/debug/AndroidManifest.xml:9:5-67
+MERGED from [com.google.android.gms:play-services-maps:18.2.0] /Users/meghapradeetha/.gradle/caches/transforms-3/bc5a61d9faa745b16dac9bacec6875b6/transformed/jetified-play-services-maps-18.2.0/AndroidManifest.xml:24:5-67
+MERGED from [com.google.android.gms:play-services-maps:18.2.0] /Users/meghapradeetha/.gradle/caches/transforms-3/bc5a61d9faa745b16dac9bacec6875b6/transformed/jetified-play-services-maps-18.2.0/AndroidManifest.xml:24:5-67
 	android:name
 		ADDED from /Users/meghapradeetha/HotelApp/android/app/src/debug/AndroidManifest.xml:6:22-64
 service#com.google.firebase.components.ComponentDiscoveryService
@@ -201,6 +219,28 @@ ADDED from [androidx.window:window:1.0.0-beta04] /Users/meghapradeetha/.gradle/c
 		ADDED from [androidx.window:window:1.0.0-beta04] /Users/meghapradeetha/.gradle/caches/transforms-3/2f632d8dec5aedcc344894ac2d746d3d/transformed/jetified-window-1.0.0-beta04/AndroidManifest.xml:30:13-37
 	android:name
 		ADDED from [androidx.window:window:1.0.0-beta04] /Users/meghapradeetha/.gradle/caches/transforms-3/2f632d8dec5aedcc344894ac2d746d3d/transformed/jetified-window-1.0.0-beta04/AndroidManifest.xml:29:13-51
+uses-permission#android.permission.ACCESS_NETWORK_STATE
+ADDED from [com.google.android.gms:play-services-maps:18.2.0] /Users/meghapradeetha/.gradle/caches/transforms-3/bc5a61d9faa745b16dac9bacec6875b6/transformed/jetified-play-services-maps-18.2.0/AndroidManifest.xml:23:5-79
+	android:name
+		ADDED from [com.google.android.gms:play-services-maps:18.2.0] /Users/meghapradeetha/.gradle/caches/transforms-3/bc5a61d9faa745b16dac9bacec6875b6/transformed/jetified-play-services-maps-18.2.0/AndroidManifest.xml:23:22-76
+uses-feature#0x00020000
+ADDED from [com.google.android.gms:play-services-maps:18.2.0] /Users/meghapradeetha/.gradle/caches/transforms-3/bc5a61d9faa745b16dac9bacec6875b6/transformed/jetified-play-services-maps-18.2.0/AndroidManifest.xml:26:5-28:35
+	android:glEsVersion
+		ADDED from [com.google.android.gms:play-services-maps:18.2.0] /Users/meghapradeetha/.gradle/caches/transforms-3/bc5a61d9faa745b16dac9bacec6875b6/transformed/jetified-play-services-maps-18.2.0/AndroidManifest.xml:27:9-41
+	android:required
+		ADDED from [com.google.android.gms:play-services-maps:18.2.0] /Users/meghapradeetha/.gradle/caches/transforms-3/bc5a61d9faa745b16dac9bacec6875b6/transformed/jetified-play-services-maps-18.2.0/AndroidManifest.xml:28:9-32
+queries
+ADDED from [com.google.android.gms:play-services-maps:18.2.0] /Users/meghapradeetha/.gradle/caches/transforms-3/bc5a61d9faa745b16dac9bacec6875b6/transformed/jetified-play-services-maps-18.2.0/AndroidManifest.xml:30:5-34:15
+package#com.google.android.apps.maps
+ADDED from [com.google.android.gms:play-services-maps:18.2.0] /Users/meghapradeetha/.gradle/caches/transforms-3/bc5a61d9faa745b16dac9bacec6875b6/transformed/jetified-play-services-maps-18.2.0/AndroidManifest.xml:33:9-64
+	android:name
+		ADDED from [com.google.android.gms:play-services-maps:18.2.0] /Users/meghapradeetha/.gradle/caches/transforms-3/bc5a61d9faa745b16dac9bacec6875b6/transformed/jetified-play-services-maps-18.2.0/AndroidManifest.xml:33:18-61
+uses-library#org.apache.http.legacy
+ADDED from [com.google.android.gms:play-services-maps:18.2.0] /Users/meghapradeetha/.gradle/caches/transforms-3/bc5a61d9faa745b16dac9bacec6875b6/transformed/jetified-play-services-maps-18.2.0/AndroidManifest.xml:39:9-41:40
+	android:required
+		ADDED from [com.google.android.gms:play-services-maps:18.2.0] /Users/meghapradeetha/.gradle/caches/transforms-3/bc5a61d9faa745b16dac9bacec6875b6/transformed/jetified-play-services-maps-18.2.0/AndroidManifest.xml:41:13-37
+	android:name
+		ADDED from [com.google.android.gms:play-services-maps:18.2.0] /Users/meghapradeetha/.gradle/caches/transforms-3/bc5a61d9faa745b16dac9bacec6875b6/transformed/jetified-play-services-maps-18.2.0/AndroidManifest.xml:40:13-50
 activity#com.google.android.gms.auth.api.signin.internal.SignInHubActivity
 ADDED from [com.google.android.gms:play-services-auth:21.0.0] /Users/meghapradeetha/.gradle/caches/transforms-3/d96a5d8a84687aae0598367ea687ad3a/transformed/jetified-play-services-auth-21.0.0/AndroidManifest.xml:23:9-27:75
 	android:excludeFromRecents
@@ -231,6 +271,8 @@ ADDED from [com.google.android.gms:play-services-base:18.0.1] /Users/meghapradee
 		ADDED from [com.google.android.gms:play-services-base:18.0.1] /Users/meghapradeetha/.gradle/caches/transforms-3/91fe2bec1e887c704cc6120aa38cfaef/transformed/jetified-play-services-base-18.0.1/AndroidManifest.xml:20:19-85
 meta-data#com.google.android.gms.version
 ADDED from [com.google.android.gms:play-services-basement:18.2.0] /Users/meghapradeetha/.gradle/caches/transforms-3/0b439073779277b892358adc29df17ea/transformed/jetified-play-services-basement-18.2.0/AndroidManifest.xml:21:9-23:69
+MERGED from [com.google.maps.android:android-maps-utils:3.6.0] /Users/meghapradeetha/.gradle/caches/transforms-3/69f0254b8be860c7bd0277cc29a16dcc/transformed/jetified-android-maps-utils-3.6.0/AndroidManifest.xml:8:9-10:69
+MERGED from [com.google.maps.android:android-maps-utils:3.6.0] /Users/meghapradeetha/.gradle/caches/transforms-3/69f0254b8be860c7bd0277cc29a16dcc/transformed/jetified-android-maps-utils-3.6.0/AndroidManifest.xml:8:9-10:69
 	android:value
 		ADDED from [com.google.android.gms:play-services-basement:18.2.0] /Users/meghapradeetha/.gradle/caches/transforms-3/0b439073779277b892358adc29df17ea/transformed/jetified-play-services-basement-18.2.0/AndroidManifest.xml:23:13-66
 	android:name

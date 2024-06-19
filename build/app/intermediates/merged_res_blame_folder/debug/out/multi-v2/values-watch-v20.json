@@ -1,7 +1,7 @@
 {
     "logs": [
         {
-            "outputFile": "com.example.hotel.app-mergeDebugResources-21:/values-watch-v20/values-watch-v20.xml",
+            "outputFile": "com.example.hotel.app-mergeDebugResources-23:/values-watch-v20/values-watch-v20.xml",
             "map": [
                 {
                     "source": "/Users/meghapradeetha/.gradle/caches/transforms-3/d96a5d8a84687aae0598367ea687ad3a/transformed/jetified-play-services-auth-21.0.0/res/values-watch-v20/values.xml",

@@ -1,4 +1,16 @@
-#Wed Jun 19 13:45:17 IST 2024
-base.0=/Users/meghapradeetha/HotelApp/build/app/intermediates/dex/debug/mergeDexDebug/classes.dex
+#Wed Jun 19 16:33:50 IST 2024
+base.0=/Users/meghapradeetha/HotelApp/build/app/intermediates/dex/debug/mergeExtDexDebug/classes.dex
+base.1=/Users/meghapradeetha/HotelApp/build/app/intermediates/dex/debug/mergeLibDexDebug/0/classes.dex
+base.2=/Users/meghapradeetha/HotelApp/build/app/intermediates/dex/debug/mergeProjectDexDebug/0/classes.dex
+base.3=/Users/meghapradeetha/HotelApp/build/app/intermediates/dex/debug/mergeProjectDexDebug/1/classes.dex
+base.4=/Users/meghapradeetha/HotelApp/build/app/intermediates/dex/debug/mergeProjectDexDebug/12/classes.dex
 path.0=classes.dex
+path.1=0/classes.dex
+path.2=0/classes.dex
+path.3=1/classes.dex
+path.4=12/classes.dex
 renamed.0=classes.dex
+renamed.1=classes2.dex
+renamed.2=classes3.dex
+renamed.3=classes4.dex
+renamed.4=classes5.dex
