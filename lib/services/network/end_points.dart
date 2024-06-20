@@ -1,4 +1,4 @@
-//all API end points are here
+//all API end points
 class EndPoints {
   EndPoints._();
 
