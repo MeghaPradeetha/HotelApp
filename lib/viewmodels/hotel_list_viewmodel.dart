@@ -13,7 +13,8 @@ class HotelListViewModel extends ChangeNotifier {
 
   List<Hotel> get hotels => _hotels;
 
-  Future<void> fetchHotels() async {
+  //fetch all hotels using api call
+  Future<void> fetchAllHotels() async {
     isLoading = true;
     notifyListeners();
     try {
@@ -27,6 +28,7 @@ class HotelListViewModel extends ChangeNotifier {
     }
   }
 
+  //logic of the search filter
   void searchHotels(String query) {
     if (query.isEmpty) {
       filteredHotels = _hotels;
@@ -39,6 +41,7 @@ class HotelListViewModel extends ChangeNotifier {
     notifyListeners();
   }
 
+  //google signout function
   Future<void> signOut(BuildContext context) async {
     showDialog(
       context: context,

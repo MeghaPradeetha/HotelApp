@@ -9,7 +9,8 @@ class LoginViewModel extends ChangeNotifier {
 
   bool get isLoggedIn => _googleSignIn.currentUser != null;
 
-  Future<void> signInWithGoogle() async {
+  //google sign function
+  Future<void> googleSignIn() async {
     try {
       await _googleSignIn.signIn();
       notifyListeners();
@@ -18,8 +19,9 @@ class LoginViewModel extends ChangeNotifier {
     }
   }
 
+  //navigator for Hotel List View
   Future<void> navigateToHotelListView(BuildContext context) async {
-    await signInWithGoogle();
+    await googleSignIn();
     Future.delayed(Duration.zero, () {
       if (isLoggedIn) {
         Navigator.push(

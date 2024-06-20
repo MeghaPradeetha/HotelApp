@@ -18,7 +18,7 @@ class _HotelListViewState extends State<HotelListView> {
   @override
   void initState() {
     super.initState();
-    model.fetchHotels();
+    model.fetchAllHotels();
   }
 
   Widget hotelsList() => Container(
