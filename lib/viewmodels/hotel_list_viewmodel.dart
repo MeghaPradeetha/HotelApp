@@ -18,7 +18,7 @@ class HotelListViewModel extends ChangeNotifier {
     isLoading = true;
     notifyListeners();
     try {
-      _hotels = await HotelApi.fetchHotels();
+      _hotels = await HotelApi.fetchHotelsData();
       filteredHotels = _hotels;
     } catch (e) {
       throw Exception('Failed to load hotels');
@@ -29,7 +29,7 @@ class HotelListViewModel extends ChangeNotifier {
   }
 
   //logic of the search filter
-  void searchHotels(String query) {
+  void searchHotelsByName(String query) {
     if (query.isEmpty) {
       filteredHotels = _hotels;
     } else {

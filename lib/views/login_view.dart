@@ -43,7 +43,7 @@ class _LoginViewState extends State<LoginView> {
     );
   }
 
-  Widget loginIcons(BuildContext context) {
+  Widget loginButtons(BuildContext context) {
     return Column(
       mainAxisAlignment: MainAxisAlignment.center,
       children: [
@@ -175,7 +175,7 @@ class _LoginViewState extends State<LoginView> {
           const SizedBox(height: 40),
           SizedBox(
             width: 300,
-            child: loginIcons(context),
+            child: loginButtons(context),
           ),
         ],
       ),

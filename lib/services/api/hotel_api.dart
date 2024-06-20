@@ -5,7 +5,7 @@ import '../../models/hotel.dart';
 
 class HotelApi {
   //API call for fetch hotels
-  static Future<List<Hotel>> fetchHotels() async {
+  static Future<List<Hotel>> fetchHotelsData() async {
     final response = await http.get(
       Uri.parse(EndPoints.hotelGET),
       headers: {'Content-Type': 'application/json'},

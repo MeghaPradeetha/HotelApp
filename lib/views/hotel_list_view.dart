@@ -3,7 +3,7 @@ import 'package:hotel/viewmodels/login_viewmodel.dart';
 import 'package:provider/provider.dart';
 import 'package:shared_preferences/shared_preferences.dart';
 import '../viewmodels/hotel_list_viewmodel.dart';
-import '../widgets/hotel_card.dart';
+import '../widgets/hotel_card_widget.dart';
 
 class HotelListView extends StatefulWidget {
   const HotelListView({Key? key}) : super(key: key);
@@ -28,8 +28,8 @@ class _HotelListViewState extends State<HotelListView> {
   Future<void> getUserData() async {
     SharedPreferences prefs = await SharedPreferences.getInstance();
     setState(() {
-      uName = prefs.getString('userName') ?? '';
-      email = prefs.getString('userEmail') ?? '';
+      uName = prefs.getString('uName') ?? '';
+      email = prefs.getString('uEmail') ?? '';
     });
   }
 
@@ -127,7 +127,7 @@ class _HotelListViewState extends State<HotelListView> {
                     prefixIcon: const Icon(Icons.search),
                   ),
                   onChanged: (query) {
-                    model.searchHotels(query);
+                    model.searchHotelsByName(query);
                   },
                 ),
               ],

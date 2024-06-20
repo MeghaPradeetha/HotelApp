@@ -7,9 +7,9 @@ import 'package:shared_preferences/shared_preferences.dart';
 class LoginViewModel extends ChangeNotifier {
   final GoogleSignIn _googleSignIn = GoogleSignIn();
 
-  String? userEmail;
-  String? userName;
-  String? userPhotoUrl;
+  String? uEmail;
+  String? uName;
+  String? uPhotoUrl;
 
   bool get isLoggedIn => _googleSignIn.currentUser != null;
 
@@ -18,13 +18,13 @@ class LoginViewModel extends ChangeNotifier {
     try {
       await _googleSignIn.signIn();
       if (_googleSignIn.currentUser != null) {
-        userEmail = _googleSignIn.currentUser!.email;
-        userName = _googleSignIn.currentUser!.displayName;
-        userPhotoUrl = _googleSignIn.currentUser!.photoUrl;
+        uEmail = _googleSignIn.currentUser!.email;
+        uName = _googleSignIn.currentUser!.displayName;
+        uPhotoUrl = _googleSignIn.currentUser!.photoUrl;
 
-        await prefs.setString('userEmail', userEmail!);
-        await prefs.setString('userName', userName!);
-        await prefs.setString('userPhotoUrl', userPhotoUrl!);
+        await prefs.setString('uEmail', uEmail!);
+        await prefs.setString('uName', uName!);
+        await prefs.setString('uPhotoUrl', uPhotoUrl!);
 
         notifyListeners();
       }
