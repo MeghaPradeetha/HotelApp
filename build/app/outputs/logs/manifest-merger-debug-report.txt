@@ -35,6 +35,7 @@ INJECTED from /Users/meghapradeetha/HotelApp/android/app/src/main/AndroidManifes
 INJECTED from /Users/meghapradeetha/HotelApp/android/app/src/main/AndroidManifest.xml:1:1-36:12
 INJECTED from /Users/meghapradeetha/HotelApp/android/app/src/main/AndroidManifest.xml:1:1-36:12
 MERGED from /Users/meghapradeetha/HotelApp/android/app/src/main/AndroidManifest.xml:1:1-36:12
+MERGED from [:shared_preferences_android] /Users/meghapradeetha/HotelApp/build/shared_preferences_android/intermediates/merged_manifest/debug/AndroidManifest.xml:2:1-9:12
 MERGED from [:firebase_core] /Users/meghapradeetha/HotelApp/build/firebase_core/intermediates/merged_manifest/debug/AndroidManifest.xml:2:1-17:12
 MERGED from [:google_maps_flutter_android] /Users/meghapradeetha/HotelApp/build/google_maps_flutter_android/intermediates/merged_manifest/debug/AndroidManifest.xml:2:1-9:12
 MERGED from [:flutter_plugin_android_lifecycle] /Users/meghapradeetha/HotelApp/build/flutter_plugin_android_lifecycle/intermediates/merged_manifest/debug/AndroidManifest.xml:2:1-9:12
@@ -89,6 +90,8 @@ uses-sdk
 INJECTED from /Users/meghapradeetha/HotelApp/android/app/src/main/AndroidManifest.xml reason: use-sdk injection requested
 INJECTED from /Users/meghapradeetha/HotelApp/android/app/src/main/AndroidManifest.xml
 INJECTED from /Users/meghapradeetha/HotelApp/android/app/src/main/AndroidManifest.xml
+MERGED from [:shared_preferences_android] /Users/meghapradeetha/HotelApp/build/shared_preferences_android/intermediates/merged_manifest/debug/AndroidManifest.xml:5:5-7:41
+MERGED from [:shared_preferences_android] /Users/meghapradeetha/HotelApp/build/shared_preferences_android/intermediates/merged_manifest/debug/AndroidManifest.xml:5:5-7:41
 MERGED from [:firebase_core] /Users/meghapradeetha/HotelApp/build/firebase_core/intermediates/merged_manifest/debug/AndroidManifest.xml:5:5-7:41
 MERGED from [:firebase_core] /Users/meghapradeetha/HotelApp/build/firebase_core/intermediates/merged_manifest/debug/AndroidManifest.xml:5:5-7:41
 MERGED from [:google_maps_flutter_android] /Users/meghapradeetha/HotelApp/build/google_maps_flutter_android/intermediates/merged_manifest/debug/AndroidManifest.xml:5:5-7:41
