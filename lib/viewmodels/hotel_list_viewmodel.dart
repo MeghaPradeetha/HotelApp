@@ -2,7 +2,7 @@ import 'package:flutter/material.dart';
 import 'package:hotel/services/api/hotel_api.dart';
 import 'package:google_sign_in/google_sign_in.dart';
 import 'package:hotel/views/login_view.dart';
-import 'package:hotel/widgets/alert_dialog.dart';
+import 'package:hotel/widgets/alert_dialog_widget.dart';
 import '../models/hotel.dart';
 
 class HotelListViewModel extends ChangeNotifier {
