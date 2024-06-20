@@ -1,15 +1,15 @@
 # Hotel App
-This is a hotel app that displays a list of hotels with all their details for users who log in using social media.
+Hotel App that lists out hotels and all the details regarding hotels with the users who signs in through socail Media.
 
 - **Project Owner:** Megha Pradeetha
 - **Owner Contact:** pradeetha1997@gmail.com | +94 77 123 9794
 - **Project Reason:** Coding Test for Elegant Media
 
 ## Assumptions Made
-- Users should be able to view a list of hotels and log in using multiple social platforms (Google, Facebook, Apple, Outlook).
-- In the detailed view, users should be able to see comprehensive information about the hotel, including its location displayed on a map.
-- The app should handle network errors gracefully, providing appropriate feedback to the user.
-- The target device is Android with a minimum screen resolution of 720p.
+- To Get List of hotels and Login with multiple social platform like Google, Facebook, Apple, Outlook.
+- In the hotel detail page, user must have access to the complete information of that hotel inclusive of its location on a map.
+- The app should give the user some kind of feedback for network errors and not just crash.
+- Target device is Android; screen resolution should be at least 720p.
 
 ## Improvements Made
 - Added multiple social login options (Google, Facebook, Apple, Outlook).
