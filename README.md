@@ -21,6 +21,16 @@ This is a hotel app that displays a list of hotels with all their details for us
 - Used Provider for dependency injection.
 - Added Google Map to share hotel locations.
 
+## Future Improvement Suggestions
+- Configure additional login options.
+- Introduce Multi-Factor Authentication (MFA) and encrypted data transfer for enhanced security.
+- Organize the MVVM architecture by feature, such as login, home, and map features.
+- Resolve issues with hotel pictures by providing working image URLs from the backend.
+- Implement environment flavoring for development, testing, and production purposes (e.g., separate codebases for DEV, TEST, and PROD).
+- Establish a continuous integration/continuous deployment (CI/CD) pipeline for automated rollouts.
+- Implement data caching for improved performance on devices.
+- Implement hotel booking feature.
+
 ## How to Test the Project on a New Machine
 
 ### Prerequisites
