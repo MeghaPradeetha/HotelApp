@@ -28,3 +28,4 @@ com.example.hotel.app-packaged_res-26 /Users/meghapradeetha/HotelApp/build/fireb
 com.example.hotel.app-packaged_res-27 /Users/meghapradeetha/HotelApp/build/flutter_plugin_android_lifecycle/intermediates/packaged_res/debug
 com.example.hotel.app-packaged_res-28 /Users/meghapradeetha/HotelApp/build/google_maps_flutter_android/intermediates/packaged_res/debug
 com.example.hotel.app-packaged_res-29 /Users/meghapradeetha/HotelApp/build/google_sign_in_android/intermediates/packaged_res/debug
+com.example.hotel.app-packaged_res-30 /Users/meghapradeetha/HotelApp/build/shared_preferences_android/intermediates/packaged_res/debug
